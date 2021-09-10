@@ -2,7 +2,8 @@ console.log("Trabalhando com listas");
 const listaDeDestinos = new Array(
     'Salvador', 
     'São Paulo' , 
-    'Brasília', 
+    'Brasília',
+    'Rio De Janeiro',
     'Dubai', 
     'Nova York',
 );
@@ -10,3 +11,8 @@ const listaDeDestinos = new Array(
 listaDeDestinos.push('Curitiba', 'Belho Horizonte');
 
 console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1, 1);
+console.log(listaDeDestinos);
+
+console.log(listaDeDestinos[2]);
